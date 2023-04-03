@@ -1,0 +1,97 @@
+# Original MTL File: 'speedway_3d_r31.mtl'
+# Material Count: 8
+
+newmtl building_grey_simple
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/TexturesCom_Tiles_Plain_1K_albedo_grey.png
+cullface 0
+
+newmtl building_shutter
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/TexturesCom_Metal_RollupGate_1x1_1K_albedo_grey.png
+cullface 0
+
+newmtl building_white_simple
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/TexturesCom_Plain_Tile_Wall_New_512_albedo_white.png
+cullface 0
+
+newmtl cp_pole
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/Handrail_A.png
+map_d textures/Handrail_A.png
+cullface 0
+
+newmtl glass
+Ka 0.21 0.21 0.21
+Kd 0.26 0.26 0.26
+Ks 0.60 0.60 0.60
+d 0.85
+Ns 200
+Km .1 .1 .1 .9
+cullface 0
+
+newmtl plastic_gray
+Ns 225.000000
+Ka 0.683938 0.683938 0.683938
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures/TexturesCom_Metal_AluminumBrushed_1K_albedo.png
+cullface 0
+
+newmtl pole_simple
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/TexturesCom_Metal_AluminumBrushed_1K_albedo.png
+cullface 0
+
+newmtl roof
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures/TexturesCom_MetalCorrugatedRusted_LightRust_1K_albedo.png
+cullface 0
+

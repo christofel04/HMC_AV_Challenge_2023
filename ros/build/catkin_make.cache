@@ -1,0 +1,2 @@
+ad_challenge_msgs:carmaker_node:carmaker_vds_client:cmrosutils:traffic_sign_detector
+-DCATKIN_DEVEL_PREFIX=/home/ave/install_files/HMC_AV_Challenge_2023_CM_11_ver1.1/ros/ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ave/install_files/HMC_AV_Challenge_2023_CM_11_ver1.1/ros/ros1_ws/install -G Unix Makefiles

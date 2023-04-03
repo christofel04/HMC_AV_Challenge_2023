@@ -1,0 +1,26 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = TrafficSign 1.0
+# sg_221212151340564
+
+# Sign name as it appears in the GUI
+Name.de = sign_obj608
+Name.en = sign_obj608
+
+# Additional information e.g. official sign description
+Info.de = not available
+Info.en = not available
+
+# Texture file
+TexFile = sg_221212151340564.png
+
+# Traffic Sign Class
+Class = Miscellaneous
+
+# Traffic Sign Shape:
+Shape = Rectangular
+
+# Traffic Sign Size (Width x Height)
+Sizes = M S L
+Size.S = 0.92 0.58
+Size.M = 1.15 0.73
+Size.L = 1.73 1.09

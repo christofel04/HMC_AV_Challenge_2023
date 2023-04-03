@@ -1,0 +1,17 @@
+APPLICATION	CarMaker_AV_Challenge #32 (linux64-11.1)
+COMPILED	ave@ave-ofel 2023-03-24 16:06:47
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros1_ws/devel/lib/libCMNode_ROS1.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 1064960
+		  -> CM Version   = 110100
+ERROR		Can't contact ROS Master!
+ Start roscore or run launch file e.g. via Extras->CMRosIF
+		
+ERROR		FATAL ERROR - Application stopped
+		Eliminate the error and restart the application
+SHUTDOWN	CarMaker shutdown initiated
+

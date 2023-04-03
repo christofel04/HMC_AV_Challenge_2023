@@ -1,0 +1,21 @@
+(cl:defpackage ad_challenge_msgs-msg
+  (:use )
+  (:export
+   "<CM_OBJECT>"
+   "CM_OBJECT"
+   "<CONTROL_SIGNAL>"
+   "CONTROL_SIGNAL"
+   "<FULLSTATEBBOX3D>"
+   "FULLSTATEBBOX3D"
+   "<FULLSTATEBBOX3DARRAY>"
+   "FULLSTATEBBOX3DARRAY"
+   "<OB_LIST>"
+   "OB_LIST"
+   "<TRAFFICSIGN>"
+   "TRAFFICSIGN"
+   "<TRAFFICSIGNARRAY>"
+   "TRAFFICSIGNARRAY"
+   "<UAQ_OUT>"
+   "UAQ_OUT"
+  ))
+

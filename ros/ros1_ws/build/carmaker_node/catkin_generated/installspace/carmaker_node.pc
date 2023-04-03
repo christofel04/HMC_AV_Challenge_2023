@@ -1,0 +1,8 @@
+prefix=/home/ave/install_files/HMC_AV_Challenge_2023_CM_11_ver1.1/ros/ros1_ws/install
+
+Name: carmaker_node
+Description: Description of carmaker_node
+Version: 0.8.0
+Cflags: 
+Libs: -L${prefix}/lib -lCMNode_ROS1
+Requires: message_runtime cmrosutils

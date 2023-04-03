@@ -1,0 +1,8 @@
+prefix=/home/ave/install_files/HMC_AV_Challenge_2023_CM_11_ver1.1/ros/ros1_ws/devel
+
+Name: ad_challenge_msgs
+Description: Description of ad_challenge_msgs
+Version: 0.1.0
+Cflags: -I/home/ave/install_files/HMC_AV_Challenge_2023_CM_11_ver1.1/ros/ros1_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

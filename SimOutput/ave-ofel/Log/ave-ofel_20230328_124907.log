@@ -1,0 +1,157 @@
+APPLICATION	CarMaker_AV_Challenge #32 (linux64-11.1)
+COMPILED	ave@ave-ofel 2023-03-24 16:06:47
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros1_ws/devel/lib/libCMNode_ROS1.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 1064960
+		  -> CM Version   = 110100
+		  -> Has param '/use_sim_time' with value '1'
+		  -> Provide simulation time!
+		    -> Publish '/clock' every 100ms
+		  -> Publish '/UAQ_Out'
+		  -> Publish '/Bbox_Out'
+		  -> Publish '/Tsign_Out'
+		  -> Publish '/Pose_Out'
+		  -> Publish '/Imu_Out'
+		Initialization of ROS Node finished!
+		  -> Node Name = '/CarMaker'
+		  -> Namespace = '/'
+		  -> Advertised Topics (9)
+		    -> /rosout
+		    -> /clock
+		    -> /UAQ_Out
+		    -> /Bbox_Out
+		    -> /Tsign_Out
+		    -> /Pose_Out
+		    -> /Imu_Out
+		    -> /tf
+		    -> /tf_static
+		  -> Subscribed Topics (1)
+		    -> /clock
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+WARNING		/opt/ipg/etc/Licenses.dat: Problem found in license file
+		> Line 186: unexpected keyword: ################################################################################
+FIRST_INIT	(internal default used)	2023-03-28 12:49:07
+TIME	0.000
+		No LidarRSI detected!
+		FName = (no associated file)
+		errCode = 0
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	12:49:08
+		A3:127.0.0.1.1 registered
+		A4:127.0.0.1.2 registered
+SIM_START	2023_Test_speedway	2023-03-28 12:49:10
+TIME	0.157
+		Sensor Kind[0]: VLP_64
+		
+Lidar module:
+		Amount of LidarRSI sensors: 1
+TIME	0.010
+		FName = Data/Vehicle/Demo_Hyundai_Ioniq_5_Sensor_230125
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = /CarMaker
+		  -> Publish /clock every 100ms
+		External ROS Node is ready to simulate
+		
+Lidar module:
+		Amount of LidarRSI sensors: 1
+		Sensor Kind[0]: VLP_64
+		IP: localhost
+		Port: 50001
+		BeamFile[0]: Data/Sensor/LidarRSI_VLP_64_360deg
+		
+Vehicle control module:
+		Port of UDP_InSocket of Vehicle control: 50302
+		
+Vehicle Info UDP module:
+		IP: localhost
+		Port: 50301
+		Vehicle Info Cycle time: 100 [ms]
+		Current random seed value = 1679975350
+TIME	0.000
+SIMULATE	2023_Test_speedway
+
+WARNING		CameraRSI: VDS client not running on simulation start. (-60)
+TIME	144.208
+SIM_END		2023_Test_speedway	144.201s	2183.53m
+SIM_START	2023_Test_speedway	2023-03-28 12:51:44
+TIME	144.274
+		Sensor Kind[0]: VLP_64
+		
+Lidar module:
+		Amount of LidarRSI sensors: 1
+TIME	0.008
+		FName = Data/Vehicle/Demo_Hyundai_Ioniq_5_Sensor_230125
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = /CarMaker
+		  -> Publish /clock every 100ms
+		External ROS Node is ready to simulate
+		
+Lidar module:
+		Amount of LidarRSI sensors: 1
+		Sensor Kind[0]: VLP_64
+		IP: localhost
+		Port: 50001
+		BeamFile[0]: Data/Sensor/LidarRSI_VLP_64_360deg
+		
+Vehicle control module:
+		Port of UDP_InSocket of Vehicle control: 50302
+		
+Vehicle Info UDP module:
+		IP: localhost
+		Port: 50301
+		Vehicle Info Cycle time: 100 [ms]
+		Current random seed value = 1679975504
+TIME	0.000
+SIMULATE	2023_Test_speedway
+
+WARNING		CameraRSI: VDS client not running on simulation start. (-60)
+TIME	5396.427
+ERROR		Zero battery voltage
+ERROR		Zero battery voltage
+SIM_ABORT	2023_Test_speedway	5396.43s	86248.2m
+TIME	5934.784
+SIM_START	2023_Test_speedway	2023-03-28 15:51:47
+TIME	0.002
+		Sensor Kind[0]: VLP_64
+		
+Lidar module:
+		Amount of LidarRSI sensors: 1
+		FName = Data/Vehicle/Demo_Hyundai_Ioniq_5_Sensor_230125
+		errCode = 0
+		CarMaker ROS Node is enabled! Mode=1, SyncMode=0
+		  -> Node Name = /CarMaker
+		  -> Publish /clock every 100ms
+		External ROS Node is ready to simulate
+		
+Lidar module:
+		Amount of LidarRSI sensors: 1
+		Sensor Kind[0]: VLP_64
+		IP: localhost
+		Port: 50001
+		BeamFile[0]: Data/Sensor/LidarRSI_VLP_64_360deg
+		
+Vehicle control module:
+		Port of UDP_InSocket of Vehicle control: 50302
+		
+Vehicle Info UDP module:
+		IP: localhost
+		Port: 50301
+		Vehicle Info Cycle time: 100 [ms]
+		Current random seed value = 1679986307
+TIME	0.000
+SIMULATE	2023_Test_speedway
+
+WARNING		CameraRSI: VDS client not running on simulation start. (-60)
+TIME	133.559
+SIM_END		2023_Test_speedway	133.557s	2046m
+SHUTDOWN	CarMaker quick shutdown initiated
+
+ERROR		Caught signal SIGSEGV (11)
+WARNING	Simulation program terminates

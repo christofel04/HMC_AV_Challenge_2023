@@ -1,0 +1,39 @@
+APPLICATION	CarMaker_AV_Challenge #26 (linux64-11.1)
+COMPILED	ave@ave-ofel 2023-03-24 15:05:36
+ 
+		CMRosIF: Initialization (v0.6.8-CM7.1.2)
+		CMRosIF: Read parameters from 'Data/Config/CMRosIFParameters'
+		CMRosIF: Loaded library 'ros/ros1_ws/devel/lib/libCMNode_ROS1.so'
+		Initialize CarMaker ROS Node
+		  -> Node Version = 00800
+		  -> ROS Version  = 1064960
+		  -> CM Version   = 110100
+		  -> Provide simulation time!
+		    -> Publish '/clock' every 100ms
+		  -> Publish '/UAQ_Out'
+		Initialization of ROS Node finished!
+		  -> Node Name = '/CarMaker'
+		  -> Namespace = '/'
+		  -> Advertised Topics (5)
+		    -> /rosout
+		    -> /clock
+		    -> /UAQ_Out
+		    -> /tf
+		    -> /tf_static
+		  -> Subscribed Topics (0)
+		CMRosIF_CMNode_MyFunc: Here is my own function from the CarMaker ROS Node library!
+WARNING		/opt/ipg/etc/Licenses.dat: Problem found in license file
+		> Line 186: unexpected keyword: ################################################################################
+FIRST_INIT	(internal default used)	2023-03-24 15:12:05
+TIME	0.000
+		No LidarRSI detected!
+		FName = (no associated file)
+		errCode = 0
+		CarMaker ROS Node is disabled!
+SIM_END			0s	0m
+IDLE	15:12:06
+TIME	25.614
+SHUTDOWN	CarMaker quick shutdown initiated
+
+ERROR		Caught signal SIGSEGV (11)
+WARNING	Simulation program terminates

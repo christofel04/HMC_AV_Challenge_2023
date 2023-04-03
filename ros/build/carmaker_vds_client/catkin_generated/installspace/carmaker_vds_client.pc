@@ -1,0 +1,8 @@
+prefix=/home/ave/install_files/HMC_AV_Challenge_2023_CM_11_ver1.1/ros/ros1_ws/install
+
+Name: carmaker_vds_client
+Description: Description of carmaker_vds_client
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
